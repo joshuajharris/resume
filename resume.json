@@ -1,0 +1,131 @@
+{
+  "basics": {
+    "name": "Joshua Harris",
+    "label": "Student Software Engineer and Graphic Designer; Addicted to coffee..shops",
+    "picture": "pic.jpg",
+    "email": "joshua.jharris13@gmail.com",
+    "phone": "",
+    "website": "http://www.joshuajharris.com",
+    "summary": "I am obsessed with building great apps and products. In fact, I'm so obsessed that I love to dip my hands into every aspect of the process.\n\n⁍ Research & Planning\n⁍ UI/UX Design\n⁍ Development (Frontend/Backend)\n⁍ Product management\n\nHeck, put me on the sales team. I'll be the Dwight Schrute to your Michael Scott.\n\nI am incredibly driven because my passion is to create the apps of the future. Crafting great user experiences everyone can carry with them at any time. There is something incredibly magical about that.\n\nSpecialties:\nAbility to thrive in a team; Self Motivation; Planning & Organizing; Effective time management; Leadership; Creativity; Effective communication; Web Technologies; Full Stack Development; Graphic Design; UI Design; UX Design",
+    "location": {
+      "address": "",
+      "postalCode": "VA 23456",
+      "city": "Virginia Beach",
+      "countryCode": "US",
+      "region": "Virginia"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "neutralthoughts",
+        "url": ""
+      },
+      {
+        "network": "SoundCloud",
+        "username": "dandymusicnl",
+        "url": "https://soundcloud.com/dandymusicnl"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Dominion Enterprises",
+      "position": "Software Engineer Intern @ ForRent.com",
+      "website": "http://www.forrent.com",
+      "startDate": "2016-05-12",
+      "endDate": "2016-08-07",
+      "summary": "An apartment finder service & guide for rentals.",
+      "highlights": [
+        "Tested, updated, and implemented a process for migrating property listings from Microsoft SQL database to Elasticsearch in order to return aggregations faster, score search results easier, and make great use of the built in query operations on GeoJSON data.",
+        "Created Elasticsearch query builder library and utility functions.",
+        "Implemented desired search query logic in v3 api routes so that front-end clients can maintain same functionality as v2 api, but with upgraded performance and simpler query structure.",
+        "Designed and built a endpoint query visualization tool in order to give front-end developers an immediate way into figuring out how to structure the queries they build."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "CoderDojo",
+      "position": "Teacher",
+      "website": "http://coderdojo.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Global movement of free coding clubs for young people.",
+      "highlights": [
+        "Awarded 'Teacher of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Oklahoma",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "startDate": "2011-06-01",
+      "endDate": "2014-01-01",
+      "gpa": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL",
+        "CS2011 - Java Introduction"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Digital Compression Pioneer Award",
+      "date": "2014-11-01",
+      "awarder": "Techcrunch",
+      "summary": "There is no spoon."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Video compression for 3d media",
+      "publisher": "Hooli",
+      "releaseDate": "2014-10-01",
+      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
+      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Compression",
+      "level": "Master",
+      "keywords": [
+        "Mpeg",
+        "MP4",
+        "GIF"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Erlich Bachman",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ]
+}
