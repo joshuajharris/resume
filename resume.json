@@ -2,28 +2,48 @@
   "basics": {
     "name": "Joshua Harris",
     "label": "Student Software Engineer and Graphic Designer; Addicted to coffee..shops",
-    "picture": "pic.jpg",
+    "picture": "http://joshuajharris.com/img/portrait.png",
     "email": "joshua.jharris13@gmail.com",
     "phone": "",
-    "website": "http://www.joshuajharris.com",
+    "website": "http://joshuajharris.com",
     "summary": "I am obsessed with building great apps and products. In fact, I'm so obsessed that I love to dip my hands into every aspect of the process.\n\n⁍ Research & Planning\n⁍ UI/UX Design\n⁍ Development (Frontend/Backend)\n⁍ Product management\n\nHeck, put me on the sales team. I'll be the Dwight Schrute to your Michael Scott.\n\nI am incredibly driven because my passion is to create the apps of the future. Crafting great user experiences everyone can carry with them at any time. There is something incredibly magical about that.\n\nSpecialties:\nAbility to thrive in a team; Self Motivation; Planning & Organizing; Effective time management; Leadership; Creativity; Effective communication; Web Technologies; Full Stack Development; Graphic Design; UI Design; UX Design",
     "location": {
       "address": "",
-      "postalCode": "VA 23456",
+      "postalCode": "",
       "city": "Virginia Beach",
       "countryCode": "US",
       "region": "Virginia"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
+        "network": "LinkedIn",
+        "username": "joshuajh",
+        "url": "https://www.linkedin.com/in/joshuajh"
       },
       {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.com/dandymusicnl"
+        "network": "Github",
+        "username": "joshuajharris",
+        "url": "https://github.com/joshuajharris"
+      },
+      {
+        "network": "Behance",
+        "username": "joshuajharris",
+        "url": "https://www.behance.net/joshuajharris"
+      },
+      {
+        "network": "Medium",
+        "username": "joshuajharris",
+        "url": "https://medium.com/@joshuajharris"
+      },
+      {
+        "network": "Stack Overflow",
+        "username": "joshuajharris",
+        "url": "http://stackoverflow.com/users/5464941/joshuajharris"
+      },
+      {
+        "network": "Twitter",
+        "username": "Joshua_J_Harris",
+        "url": "https://twitter.com/Joshua_J_Harris"
       }
     ]
   },
@@ -31,101 +51,183 @@
     {
       "company": "Dominion Enterprises",
       "position": "Software Engineer Intern @ ForRent.com",
-      "website": "http://www.forrent.com",
-      "startDate": "2016-05-12",
-      "endDate": "2016-08-07",
-      "summary": "An apartment finder service & guide for rentals.",
+      "website": "http://www.dominionenterprises.com",
+      "startDate": "2016-05-01",
+      "endDate": "2016-08-01",
+      "summary": "",
       "highlights": [
         "Tested, updated, and implemented a process for migrating property listings from Microsoft SQL database to Elasticsearch in order to return aggregations faster, score search results easier, and make great use of the built in query operations on GeoJSON data.",
         "Created Elasticsearch query builder library and utility functions.",
         "Implemented desired search query logic in v3 api routes so that front-end clients can maintain same functionality as v2 api, but with upgraded performance and simpler query structure.",
         "Designed and built a endpoint query visualization tool in order to give front-end developers an immediate way into figuring out how to structure the queries they build."
       ]
+    },
+    {
+      "company": "Dominion Enterprises",
+      "position": "Software Engineer Intern @ ForRent.com",
+      "website": "http://www.dominionenterprises.com",
+      "startDate": "2015-10-01",
+      "endDate": "2016-02-01",
+      "summary": "",
+      "highlights": [
+        "Implemented a resque-like system in NodeJS to ensure reliability of ForRent.com’s guest card delivery system as well as distributing workload over several worker processes to maximize how quickly requests are completed.",
+        "After completing the work required of me for a sprint, I created a web tool to help developers and product managers debug incorrect guest cards found during testing, making bugs easier to find and quicker to solve. # Implemented logic on the backend for sending leads with enhanced insight data to third party vendors using their services.",
+        "Refactored 10+ year old code on the backend so that developers could focus most of their efforts on adding new features instead of deciphering the codebase.",
+        "Migrated admin console pages from an unsupported legacy mvc framework to zend to allow for better stability, performance, and ability to upgrade."
+      ]
+    },
+    {
+      "company": "Stinger Ghaffarian Technologies (SGT)",
+      "position": "NASA LITES Contract Intern",
+      "website": "",
+      "startDate": "2015-05-01",
+      "endDate": "2015-08-01",
+      "summary": "",
+      "highlights": [
+        "Wrote Application Portfolio application for local contractor staff to manage application portfolio data",
+        "Created Docker Container for the Application Portfolio app and deployed into Amazon Web Services (AWS) Elastic Beanstalk",
+        "Presented container technologies to contractor staff in brown bag training session",
+        "Conducted market analysis on virtual reality technologies and made procurement recommendations to NASA Langley CTO"
+      ]
     }
   ],
   "volunteer": [
     {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "http://coderdojo.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
+      "organization": "Code for Hampton Roads",
+      "position": "Web Developer",
+      "website": "http://code4hr.org",
+      "startDate": "2015-02-01",
+      "summary": "Local branch of Code for America.",
+      "highlights": []
+    },
+    {
+      "organization": "Old Dominion University",
+      "position": "Volunteer, Club Representative",
+      "website": "https://www.odu.edu/ugadm/calendar/2016/4/admitted_students_da",
+      "startDate": "2016-04-01",
+      "endDate": "2016-04-01",
+      "summary": "I represented the Old Dominion University (ODU) Association for Computing Machinery (ACM) by manning a table with information about the benefits of joining, and handing out free stuff. I spoke with many parents and upcoming freshmen about the program to help figure out if computer science was the right path. During the CS department presentation for the parents and students, I gave a short presentation on joining the club and participating in ODU's CS dept. The children were ages 7-10 and inspiring. Their comfort with the technology and ability to pick up basic programming concepts(Loops were hard but they figured it out) gets me excited for what the future holds.",
+      "highlights": []
+    },
+    {
+      "organization": "Code.org",
+      "position": "Volunteer",
+      "website": "https://code.org/learn",
+      "startDate": "2015-12-01",
+      "summary": "The Hour of Code is a one-hour introduction to computer science, designed to demystify code and show that anybody can learn the basics. I was asked by many teachers to come volunteer with their class. That alone is fantastic, that so many teachers were interested in having computer science basics introduced to their students. Unfortunately, this lovely time of year lined up perfectly with finals so I didn't have the time to volunteer for all of them.",
       "highlights": [
-        "Awarded 'Teacher of the Month'"
+        "Volunteered at 2 visits to John B. Dey Elementary.",
+        "Tallwood Elementary (Where, as a kid, I went from K-2!)"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "4.0",
+      "institution": "Old Dominion University",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2011-08-01",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Advanced Technology Center",
+      "area": "Software and Game Development",
+      "studyType": "High School Diploma",
+      "startDate": "2011-09-01",
+      "endDate": "2013-06-01",
+      "gpa": "",
       "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
+        "Software and Game Development",
+        "Advanced Software and Game Development"
+      ]
+    },
+    {
+      "institution": "Landstown Technology Academy",
+      "area": "Information Technology",
+      "studyType": "Technology Academy/Advanced Studies High School Diploma",
+      "startDate": "2009-09-01",
+      "endDate": "2013-06-01",
+      "gpa": "3.25",
+      "courses": [
+        "Intro to Information Technology",
+        "Intro to Web Development",
+        "Oracle Database Management and Administration",
+        "Advanced Computer Science"
       ]
     }
   ],
   "awards": [
     {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
+      "title": "Finalist in NASA 757 Space Apps competition",
+      "date": "2015-04-01",
+      "awarder": "NASA Langley",
+      "summary": "NASA Langley sponsored hackathon in the Hampton Roads area. Worked in a team of two on a web app to help people find/use open source data."
+    },
     {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+      "title": "2nd Place Great Computer Challenge Java Programming",
+      "date": "2013-03-01",
+      "awarder": "WHR0, Old Dominion University",
+      "summary": "Group programming assignment where we had to develop multiple applications in Java."
+    },
+    {
+      "title": "2nd Place Great Computer Challenge Visual Basic Programming",
+      "date": "2012-03-01",
+      "awarder": "WHRO, Old Dominion University",
+      "summary": "Group programming assignment where we had to develop multiple applications in Visual Basic."
+    },
+    {
+      "title": "2nd Place FBLA Desktop Application Development (State of Virginia)",
+      "date": "2013-04-01",
+      "awarder": "Future Business Leaders of America",
+      "summary": "An individual competiton where I developed an employee management system in Visual C#."
     }
   ],
   "skills": [
     {
       "name": "Web Development",
-      "level": "Master",
+      "level": "",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        "HTML5",
+        "CSS3",
+        "Javascript",
+        "NodeJS",
+        "React",
+        "Angular",
+        "Java",
+        "Spring",
+        "PHP",
+        "Python",
+        "APIs",
+        "Fullstack"
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
+      "name": "Database/Services",
+      "level": "",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "MySQL",
+        "Oracle SQL",
+        "Sqlite",
+        "MongoDB",
+        "Redis",
+        "Firebase",
+        "Amazon Web Services",
+        "ElasticSearch"
+      ]
+    },
+    {
+      "name": "Design",
+      "level": "",
+      "keywords": [
+        "Graphic Arts",
+        "User Interfaces",
+        "User Experience",
+        "Web",
+        "Sketch App",
+        "Adobe Photoshop"
       ]
     }
   ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
-    }
-  ]
+  "interests": []
 }
