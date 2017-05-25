@@ -1,476 +1,418 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Joshua Harris</title>
-		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
-		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans" />
-		<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/FortAwesome/Font-Awesome/307323a6a7fe69b7018cb49d2b7e43e1f4b6c92b/css/font-awesome.min.css" />
-		<style type="text/css">
-/*<!--*/
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> </title>
+		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" />
+		<style>
+			@import url(https://fonts.googleapis.com/css?family=Open+Sans:300|Oswald:300);
+
 body {
-	font-size: 62.5%;
-	font-family: "Montserrat", sans-serif;
-	background-color: #fff;
-	color: #131313;
+	font-family: 'Open Sans', 'Helvetica Neue Light', sans-serif;
+	font-weight: 300;
 }
-.main-wrap {
-	max-width: 960px;
-	margin: 0 auto;
+
+h1,h2,h3 {
+	font-family: 'Oswald', sans-serif;
 }
-a {
-	color: #131313;
-	text-decoration: none;
-	-webkit-transition: color 0.175s ease 0.05s;
-	   -moz-transition: color 0.175s ease 0.05s;
-	        transition: color 0.175s ease 0.05s;
-}
-a:visited {
-	color: #aaaaaa;
-}
-a:hover,
-a:focus {
-	color: #777777;
-	text-decoration: none;
-}
-.header {
-	text-align: center;
-	font-size: 2em;
-	margin: 0 10%;
-}
-.section {
-	padding: 1em 1em 0 1em;
-	margin-bottom: 1em;
-}
-.section .fa.left {
-	margin-right: 0.25em;
-}
+
 h1 {
-	color: #131313;
-	font-size: 2em;
-	margin: 1em 0 0;
-	text-transform: uppercase;
+	font-weight: 700;
 }
-h2 {
-	font-size: 3.5em;
-	margin: 0.83em 0;
-	text-transform: uppercase;
+
+h2,h3 {
+	font-weight: 300;
 }
-h3 {
-	color: #4d4d4d;
-	font-size: 1.75em;
-	margin: 1em 0 0;
+
+main {
+	padding: 20px 0;
 }
-h4 {
-	color: #666666;
-	font-size: 1.25em;
-	margin: 0 0 1em;
+
+.vr {
+	display: inline;
+	margin: 0.5em 0px;
+	width: 1px;
+	height: 1em;
+	border-left: 1px solid gray;
 }
-.profile {
-	font-family: "Montserrat";
-	font-size: 1em;
-	margin: 0;
+
+
+section#header img {
+	padding: 20px;
 }
-.profile-name {
-	display: none;
+
+section#header .title .vr {
+	display: none;;
 }
-.contact-header {
-	font-weight: bold;
-}
-.contact-list li,
-.contact-list a {
-	color: #2b2b2b;
-}
-.contact-list a:hover,
-.contact-list a:focus {
-	color: #777777;
-}
-.label {
-	margin-top: 0;
-	margin-bottom: 0.25em;
-}
-.fa {
-	font-size: 2em;
-}
-.left {
-	font-size: 1em;
-}
-.main {
-	margin: 0 10% 5em;
-}
-.skills {
-	margin-bottom: 0.5em;
-}
-p {
-	color: #565656;
-	font-family: "Open Sans";
-	font-size: 1.5em;
-}
-li {
-	color: #565656;
-	font-family: "Open Sans";
-	font-size: 1.5em;
-}
-.contact-list li {
-	display: inline-block;
-}
-.contact-list li:first-child:before {
-	content: '';
-}
-.list-lines,
-.list-lines li {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-.list-lines li {
-	font-family: "Montserrat";
-	font-size: 1em;
-}
-.list-set,
-.list-set li {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-.list-set li {
-	font-family: "Montserrat";
-	display: inline-block;
-}
-.list-set li a {
-	display: inline-block;
-}
-.list-set li .fa {
-	min-width: 1em;
-	min-height: 1em;
-}
-/*Minor adjustment to icons.*/
-.list-set li .fa-stack-overflow:before {
-	font-size: 0.9em;
-	position: relative;
-	top: -0.05em;
-}
-.list-set.keywords {
-	overflow: hidden;
-}
-.list-set.keywords li {
-	background-color: #444444;
-	color: #eeeeee;
-	padding: 0.6em 0.85em;
-	font-size: 1.3em;
-	display: inline-block;
-	margin: 1px;
-	float: left;
-}
-.profiles-list {
-	margin-top: 0.75em;
-}
-blockquote {
-	margin: 2em 1em;
-	padding: 1em;
-	border-left: 0.75em solid #666666;
-	font-family: "Open Sans";
-	font-size: 1.5em;
-}
-blockquote .name {
-	font-weight: bold;
-	font-family: "Montserrat";
-	margin-top: 1em;
-}
-/*::-moz-selection {
-	background: #fff;
-}
-::selection {
-	background: #fff;*/
-}
-@media (max-width: 768px) {
-	body {
-		font-size: 50%;
+	
+@media(min-width:768px), print {
+	section#header img {
+		width: 4em;
+		height: 4em;
+		padding: 0px;
+		float: right;
 	}
-	.header {
-		margin: 0 5%;
+	section#header .title h1,h2 {
+		display: inline !important;
+		padding-right: 20px;
 	}
-	.main {
-		margin: 0 5%;
+	section#header .title .vr {
+		display: inline;
 	}
 }
+
+section#skills .details {
+	-moz-column-count: 2;
+	-moz-column-gap: 0px;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 0px;
+	column-count: 2;
+	column-gap: 0px;
+}
+
+.details h4 {
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.date {
+	font-size: 15px;
+	line-height: 24px;
+}
+.website {
+	line-height: 18px;
+}
+
+
+/* Fix for print */
 @media print {
+
+	a[href]:after {
+		content: none !important;
+	}
+
 	body {
-		background: #FFFFFF;
-		color: #171717;
-	}
-	.main-wrap {
-		width: 100%;
-	}
-	.main {
-		margin: 0 0 1em 0;
-	}
-	.section {
-		page-break-inside: avoid;
-	}
-	.main .section:last-child {
-		margin-bottom: 0;
-	}
-	a {
-		color: #555555;
-	}
-	a:visited {
-		color: #555555;
-	}
-	a:hover,
-	a:focus {
-		color: #555555;
+		font-size: 9px;
 	}
 	h1 {
-		color: #111111;
-		margin-top: 0.5em;
+		font-size: 31px;
 	}
 	h2 {
-		margin: 0 0 0.25em;
+		font-size: 25px;
 	}
 	h3 {
-		color: #555555;
+		font-size: 19px;
 	}
-	h4 {
-		color: #bbbbbb;
-	}
-	.contact-list li,
-	.contact-list a {
-		color: #111111;
-	}
-	p {
-		color: #555555;
-	}
-	li {
-		color: #555555;
-	}
-	.list-set.keywords li {
-		background-color: transparent;
-		color: #555555;
-		border: 1px solid #aaaaaa;
-	}
-	blockquote {
-		border-color: #999999;
-	}
-	.profiles-list {
-		display: table;
-		margin: 0.5em auto 0;
-	}
-	.profiles-list li {
-		display: table-row-group;
-		font-size: 0.75em;
-	}
-	.profiles-list li a {
-		display: table-row;
-	}
-	.profiles-list li a:after {
-		display: table-cell;
-		content: attr(href);
-		text-align: left;
-		padding: 0 0 0 0.5em;
-	}
-	.profiles-list li a .fa {
-		font-size: 1.5em;
-	}
-	.profiles-list li a > * {
-		display: table-cell;
-	}
-	.profiles-list li a .profile-name {
-		display: none;
-	}
-	* {
-		/* Avoid printing the color at the start of the transition (Chrome issue). */
-		-webkit-transition: none !important;
-		   -moz-transition: none !important;
-		        transition: none !important;
 
+	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+		float: left;
 	}
+	.col-sm-12 {
+		width: 100%;
+	}
+	.col-sm-11 {
+		width: 91.66666666666666%;
+	}
+	.col-sm-10 {
+		width: 83.33333333333334%;
+	}
+	.col-sm-9 {
+		width: 75%;
+	}
+	.col-sm-8 {
+		width: 66.66666666666666%;
+	}
+	.col-sm-7 {
+		width: 58.333333333333336%;
+	}
+	.col-sm-6 {
+		width: 50%;
+	}
+	.col-sm-5 {
+		width: 41.66666666666667%;
+	}
+	.col-sm-4 {
+		width: 33.33333333333333%;
+	}
+	.col-sm-3 {
+		width: 25%;
+	}
+	.col-sm-2 {
+		width: 16.666666666666664%;
+	}
+	.col-sm-1 {
+		width: 8.333333333333332%;
+	}
+
 }
 
-/*-->*/
 		</style>
-		<!--[if lt IE 9]>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv-printshiv.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
+
+
 	</head>
 	<body>
-		<div class="main-wrap">
-			<header class="header">
-				<h1>Joshua Harris</h1>
-				<h3 class="label">Student Software Engineer and Graphic Designer; Addicted to coffee..shops</h3>
-				<ul id="contact" class="contact-list list-lines">
-					<li class="contact-header"><a href="mailto:joshua.jharris13@gmail.com">joshua.jharris13@gmail.com</a></li>
-					<li class="contact-header"><a href="http:&#x2F;&#x2F;joshuajharris.com"> | http:&#x2F;&#x2F;joshuajharris.com</a></li>
-				</ul>
-				<ul id="profiles" class="profiles-list list-set">
-					<li><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;joshuajh" class="profile" title="LinkedIn"><i class="fa fa-linkedin"></i><span class="profile-name">LinkedIn</span></a></li>
-					<li><a href="https:&#x2F;&#x2F;github.com&#x2F;joshuajharris" class="profile" title="Github"><i class="fa fa-github"></i><span class="profile-name">Github</span></a></li>
-					<li><a href="https:&#x2F;&#x2F;www.behance.net&#x2F;joshuajharris" class="profile" title="Behance"><i class="fa fa-behance"></i><span class="profile-name">Behance</span></a></li>
-					<li><a href="https:&#x2F;&#x2F;medium.com&#x2F;@joshuajharris" class="profile" title="Medium"><i class="fa fa-medium"></i><span class="profile-name">Medium</span></a></li>
-					<li><a href="http:&#x2F;&#x2F;stackoverflow.com&#x2F;users&#x2F;5464941&#x2F;joshuajharris" class="profile" title="Stack Overflow"><i class="fa fa-stack-overflow"></i><span class="profile-name">Stack Overflow</span></a></li>
-					<li><a href="https:&#x2F;&#x2F;twitter.com&#x2F;Joshua_J_Harris" class="profile" title="Twitter"><i class="fa fa-twitter"></i><span class="profile-name">Twitter</span></a></li>
-				</ul>
-			</header>
-			<main role="main" class="main">
-				<section id="about" class="section">
-					<h2><i class="fa fa-user left"></i>About</h2>
-					<p>I am obsessed with building great apps and products. In fact, I&#39;m so obsessed that I love to dip my hands into every aspect of the process.
-
-⁍ Research &amp; Planning
-⁍ UI&#x2F;UX Design
-⁍ Development (Frontend&#x2F;Backend)
-⁍ Product management
-
-Heck, put me on the sales team. I&#39;ll be the Dwight Schrute to your Michael Scott.
-
-I am incredibly driven because my passion is to create the apps of the future. Crafting great user experiences everyone can carry with them at any time. There is something incredibly magical about that.
-
-Specialties:
-Ability to thrive in a team; Self Motivation; Planning &amp; Organizing; Effective time management; Leadership; Creativity; Effective communication; Web Technologies; Full Stack Development; Graphic Design; UI Design; UX Design</p>
+		<div class='container-fluid'>
+			<main class="row">
+			<div class="col-sm-12 col-md-10 col-md-offset-1">
+				<section id='header' class="row">
+				<div class="col-sm-9 col-xs-12 title">
+					<h1>Joshua J. Harris</h1>
+					<h2 class='vr'></h2>
+					<h2>Developer &#x2F;&#x2F; Designer</h2>
+				</div>
+				<div class="col-sm-3 col-xs-12 text-center photo">
+					<img class="media-object img-circle" data-src="holder.js/64x64" alt="64x64" src="&#x2F;&#x2F;www.gravatar.com&#x2F;avatar&#x2F;bd947ba974b3fe7bac9efb471f361b73?size=100&amp;rating=g&amp;default=blank">
+				</div>
 				</section>
-				<section id="work" class="section">
-					<h2><i class="fa fa-suitcase left"></i>Work Experience</h2>
-					<section class="section-sub section-sub-job">
-								<h3>Software Engineer Intern @ ForRent.com, Dominion Enterprises</h3>
-						<h4>May 2016 - August 2016</h4>
-						<p></p>
-						<h4>Highlights</h4>
-						<ul>
-							<li>Tested, updated, and implemented a process for migrating property listings from Microsoft SQL database to Elasticsearch in order to return aggregations faster, score search results easier, and make great use of the built in query operations on GeoJSON data.</li>
-							<li>Created Elasticsearch query builder library and utility functions.</li>
-							<li>Implemented desired search query logic in v3 api routes so that front-end clients can maintain same functionality as v2 api, but with upgraded performance and simpler query structure.</li>
-							<li>Designed and built a endpoint query visualization tool in order to give front-end developers an immediate way into figuring out how to structure the queries they build.</li>
-						</ul>
-					</section>
-					<section class="section-sub section-sub-job">
-								<h3>Software Engineer Intern @ ForRent.com, Dominion Enterprises</h3>
-						<h4>October 2015 - February 2016</h4>
-						<p></p>
-						<h4>Highlights</h4>
-						<ul>
-							<li>Implemented a resque-like system in NodeJS to ensure reliability of ForRent.com’s guest card delivery system as well as distributing workload over several worker processes to maximize how quickly requests are completed.</li>
-							<li>After completing the work required of me for a sprint, I created a web tool to help developers and product managers debug incorrect guest cards found during testing, making bugs easier to find and quicker to solve. # Implemented logic on the backend for sending leads with enhanced insight data to third party vendors using their services.</li>
-							<li>Refactored 10+ year old code on the backend so that developers could focus most of their efforts on adding new features instead of deciphering the codebase.</li>
-							<li>Migrated admin console pages from an unsupported legacy mvc framework to zend to allow for better stability, performance, and ability to upgrade.</li>
-						</ul>
-					</section>
-					<section class="section-sub section-sub-job">
-								<h3>NASA LITES Contract Intern, Stinger Ghaffarian Technologies (SGT)</h3>
-						<h4>May 2015 - August 2015</h4>
-						<p></p>
-						<h4>Highlights</h4>
-						<ul>
-							<li>Wrote Application Portfolio application for local contractor staff to manage application portfolio data</li>
-							<li>Created Docker Container for the Application Portfolio app and deployed into Amazon Web Services (AWS) Elastic Beanstalk</li>
-							<li>Presented container technologies to contractor staff in brown bag training session</li>
-							<li>Conducted market analysis on virtual reality technologies and made procurement recommendations to NASA Langley CTO</li>
-						</ul>
-					</section>
+				<hr style="color: #ccc; height: 4px;" />
+				<section id='about' class="row">
+				<header class="col-sm-3">
+				<h3>About</h3>
+				</header>
+				<div class="col-sm-9">
+					<strong>Website:</strong> <a href="https:&#x2F;&#x2F;joshuajharris.com">https:&#x2F;&#x2F;joshuajharris.com</a> <br />
+					<strong>Email:</strong> <a href="mailto:joshua.jharris13@gmail.com">joshua.jharris13@gmail.com</a><br />
+						<section id="profiles">
+							<strong class="network">
+								LinkedIn:
+							</strong>
+							<a target="_blank" href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;joshuajh">joshuajh</a>
+							<br />
+							<strong class="network">
+								Github:
+							</strong>
+							<a target="_blank" href="https:&#x2F;&#x2F;github.com&#x2F;joshuajharris">joshuajharris</a>
+							<br />
+							<strong class="network">
+								Behance:
+							</strong>
+							<a target="_blank" href="https:&#x2F;&#x2F;www.behance.net&#x2F;joshuajharris">joshuajharris</a>
+							<br />
+							<strong class="network">
+								Medium:
+							</strong>
+							<a target="_blank" href="https:&#x2F;&#x2F;medium.com&#x2F;@joshuajharris">joshuajharris</a>
+							<br />
+							<strong class="network">
+								Stack Overflow:
+							</strong>
+							<a target="_blank" href="http:&#x2F;&#x2F;stackoverflow.com&#x2F;users&#x2F;5464941&#x2F;joshuajharris">joshuajharris</a>
+							<br />
+							<strong class="network">
+								Twitter:
+							</strong>
+							<a target="_blank" href="https:&#x2F;&#x2F;twitter.com&#x2F;Joshua_J_Harris">Joshua_J_Harris</a>
+							<br />
+						</section>
+				</div>
 				</section>
-				<section id="education" class="section">
-					<h2><i class="fa fa-graduation-cap left"></i>Education</h2>
-					<section class="section-sub section-sub-education">
-						<h3>Bachelor of Science - Old Dominion University</h3>
-						<h3>Old Dominion University</h3>
-						<h4>- Always</h4>
-						<p>Computer Science</p>
-					</section>
-					<section class="section-sub section-sub-education">
-						<h3>High School Diploma - Advanced Technology Center</h3>
-						<h3>Advanced Technology Center</h3>
-						<h4>September 2011 - June 2013</h4>
-						<p>Software and Game Development</p>
-						<h4>Courses</h4>
+				<hr />
+				<section id='work' class="row">
+				<header class="col-sm-3">
+				<h3>Work Experience</h3>
+				</header>
+				<div class="col-sm-9">
+					<div class="details">
+						<h3>Dominion Enterprises<span class="date pull-right">2016 - 2016</span></h3>
+						<strong>Software Engineer Intern @ ForRent.com</strong>
+						<div class="website pull-right">
+							<a target="_blank" href="http:&#x2F;&#x2F;www.forrent.com">http:&#x2F;&#x2F;www.forrent.com</a>
+						</div>
+						<p></p>
 						<ul>
+							<li>Migrated all property listings from a Microsoft SQL database to ElasticSearch.</li>
+							<li>Implemented new search query logic in the v3 api so that front-end clients can maintain same functionality as v2 api, but with upgraded performance and simpler query structure.</li>
+							<li>Designed and built an endpoint query visualization tool in order to give front-end developers an immediate way into figuring out how to structure the queries they build.</li>
+						</ul>
+						<h3>Dominion Enterprises<span class="date pull-right">2015 - 2016</span></h3>
+						<strong>Software Engineer Intern @ ForRent.com</strong>
+						<div class="website pull-right">
+							<a target="_blank" href="http:&#x2F;&#x2F;www.forrent.com">http:&#x2F;&#x2F;www.forrent.com</a>
+						</div>
+						<p></p>
+						<ul>
+							<li>Implemented a resque-like system in NodeJS to ensure the speed and reliability of the guest card delivery system.</li>
+							<li>I created a web tool to help developers and product managers debug incorrect guest cards, making bugs easier to find and quicker to solve.</li>
+							<li>Implemented logic on the backend for sending leads with enhanced insight data to third party vendors</li>
+							<li>Migrated admin console routes from an unsupported legacy mvc framework to zend to allow for better stability, performance, and ability to upgrade.</li>
+						</ul>
+						<h3>Stinger Ghaffarian Technologies (SGT)<span class="date pull-right">2015 - 2015</span></h3>
+						<strong>NASA LITES Contract Intern</strong>
+						<div class="website pull-right">
+							<a target="_blank" href="http:&#x2F;&#x2F;www.sgt-inc.com&#x2F;">http:&#x2F;&#x2F;www.sgt-inc.com&#x2F;</a>
+						</div>
+						<p></p>
+						<ul>
+							<li>Wrote Application Portfolio application for local contractor staff to manage application portfolio data.</li>
+							<li>Created Docker Container for the Application Portfolio app and deployed into Amazon Web Services (AWS) Elastic Beanstalk.</li>
+							<li>Presented container technologies to contractor staff in brown bag training session.</li>
+							<li>Conducted market analysis on virtual reality technologies and made procurement recommendations to NASA Langley CTO.</li>
+						</ul>
+					</div>
+				</div>
+				</section>
+				<hr />
+
+				<section id='education' class="row">
+				<header class="col-sm-3">
+				<h3>Education</h3>
+				</header>
+				<div class="col-sm-9">
+					<div class="details">
+						<h3>Old Dominion University<span class="date pull-right">2011 - Present</span></h3>
+						<strong>Computer Science, Bachelor of Science</strong>
+						<p></p>
+						<h3>Advanced Technology Center<span class="date pull-right">2011 - 2013</span></h3>
+						<strong>Software and Game Development, High School Diploma</strong>
+						<p></p>
+						<ul class="courses">
 							<li>Software and Game Development</li>
 							<li>Advanced Software and Game Development</li>
 						</ul>
-					</section>
-					<section class="section-sub section-sub-education">
-						<h3>Technology Academy&#x2F;Advanced Studies High School Diploma - Landstown Technology Academy</h3>
-						<h3>Landstown Technology Academy</h3>
-						<h4>September 2009 - June 2013</h4>
-						<p>Information Technology</p>
-						<h4>Courses</h4>
-						<ul>
+						<h3>Landstown Technology Academy<span class="date pull-right">2009 - 2013</span></h3>
+						<strong>Information Technology, Technology Academy&#x2F;Advanced Studies High School Diploma</strong>
+						<p></p>
+						<ul class="courses">
 							<li>Intro to Information Technology</li>
 							<li>Intro to Web Development</li>
 							<li>Oracle Database Management and Administration</li>
 							<li>Advanced Computer Science</li>
 						</ul>
-					</section>
+					</div>
+				</div>
 				</section>
-				<section id="skills" class="section">
-					<h2><i class="fa fa-tasks left"></i>Skills</h2>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Web Development</h3>
-						<ul class="list-set keywords">
-							<li>HTML5</li>
-							<li>CSS3</li>
-							<li>Javascript</li>
-							<li>NodeJS</li>
-							<li>React</li>
-							<li>Angular</li>
-							<li>Java</li>
-							<li>Spring</li>
-							<li>PHP</li>
-							<li>Python</li>
-							<li>APIs</li>
-							<li>Fullstack</li>
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Database&#x2F;Services</h3>
-						<ul class="list-set keywords">
-							<li>MySQL</li>
-							<li>Oracle SQL</li>
-							<li>Sqlite</li>
-							<li>MongoDB</li>
-							<li>Redis</li>
-							<li>Firebase</li>
-							<li>Amazon Web Services</li>
-							<li>ElasticSearch</li>
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Design</h3>
-						<ul class="list-set keywords">
-							<li>Graphic Arts</li>
-							<li>User Interfaces</li>
-							<li>User Experience</li>
-							<li>Web</li>
-							<li>Sketch App</li>
-							<li>Adobe Photoshop</li>
-						</ul>
-					</section>
+				<hr />
+				<section id='skills' class="row">
+				<header class="col-sm-3">
+				<h3>Skills</h3>
+				</header>
+				<div class="col-sm-9">
+					<div class="details row">
+						<div class='col-sm-12'>
+							<ul>
+								<li>
+								<h4>Frontend <span class="pull-right"></span></h4>
+								<ul>
+									<li>HTML5</li>
+									<li>CSS3</li>
+									<li>Javascript</li>
+									<li>React</li>
+									<li>Redux</li>
+								</ul>
+								</li>
+							</ul>
+						</div>
+						<div class='col-sm-12'>
+							<ul>
+								<li>
+								<h4>Backend <span class="pull-right"></span></h4>
+								<ul>
+									<li>NodeJs</li>
+									<li>php</li>
+									<li>Python</li>
+									<li>Java</li>
+									<li>Cloud Services</li>
+									<li>Firebase</li>
+									<li>Heroku</li>
+									<li>Amazon Web Services</li>
+								</ul>
+								</li>
+							</ul>
+						</div>
+						<div class='col-sm-12'>
+							<ul>
+								<li>
+								<h4>Database <span class="pull-right"></span></h4>
+								<ul>
+									<li>SQL</li>
+									<li>MySQL</li>
+									<li>PostGres</li>
+									<li>NoSQL</li>
+									<li>Redis</li>
+									<li>Mongo</li>
+									<li>ElasticSearch</li>
+								</ul>
+								</li>
+							</ul>
+						</div>
+						<div class='col-sm-12'>
+							<ul>
+								<li>
+								<h4>Design <span class="pull-right"></span></h4>
+								<ul>
+									<li>Adobe Photoshop</li>
+									<li>Sketch App</li>
+									<li>Graphic Design</li>
+									<li>UI &#x2F; UX</li>
+								</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
 				</section>
-				<section id="awards" class="section">
-					<h2><i class="fa fa-trophy left"></i>Awards</h2>
-					<section class="section-sub section-sub-award">
-						<h3>Finalist in NASA 757 Space Apps competition - NASA Langley</h3>
-						<h4>1 April 2015</h4>
-						<p>NASA Langley sponsored hackathon in the Hampton Roads area. Worked in a team of two on a web app to help people find&#x2F;use open source data.</p>
-					</section>
-					<section class="section-sub section-sub-award">
-						<h3>2nd Place Great Computer Challenge Java Programming - WHR0, Old Dominion University</h3>
-						<h4>1 March 2013</h4>
-						<p>Group programming assignment where we had to develop multiple applications in Java.</p>
-					</section>
-					<section class="section-sub section-sub-award">
-						<h3>2nd Place Great Computer Challenge Visual Basic Programming - WHRO, Old Dominion University</h3>
-						<h4>1 March 2012</h4>
-						<p>Group programming assignment where we had to develop multiple applications in Visual Basic.</p>
-					</section>
-					<section class="section-sub section-sub-award">
-						<h3>2nd Place FBLA Desktop Application Development (State of Virginia) - Future Business Leaders of America</h3>
-						<h4>1 April 2013</h4>
-						<p>An individual competiton where I developed an employee management system in Visual C#.</p>
-					</section>
+				<hr />
+				<section id='volunteer' class="row">
+				<header class="col-sm-3">
+				<h3>Volunteer</h3>
+				</header>
+				<div class="col-sm-9">
+					<div class="details">
+						<h3>WHRO Public Media<span class="date pull-right">2017 - Present</span></h3>
+						<strong>GCC Volunteer (Monitor)</strong>
+						<div class="website pull-right">
+							<a target="_blank" href="http:&#x2F;&#x2F;education.whro.org&#x2F;regional-services&#x2F;for-schools&#x2F;great-computer-challenge">http:&#x2F;&#x2F;education.whro.org&#x2F;regional-services&#x2F;for-schools&#x2F;great-computer-challenge</a>
+						</div>
+						<p>I volunteered to help during the 32nd annual Great Computer Challenge, organized by WHRO and held at Old Dominion University. I competed in this event twice during high school and felt compelled to make it as fun and special as others did for me. I monitored several teams of high school students competing in tech related challenges.</p>
+						<ul>
+							<li>Kept time during the event</li>
+							<li>relayed questions from the students to judges</li>
+							<li>Made sure teams were following the rules of the competition</li>
+							<li>helped with registration at the start of the event</li>
+						</ul>
+						<h3>Tidewater Teachers of Physics Society (TOPS)<span class="date pull-right">2017 - Present</span></h3>
+						<strong>Physics Volunteer</strong>
+						<p>The Physics Olympics is a series of six activities, each of 20 minutes duration, and is designed to be fun, active, include some knowledge of science, and require group participation. Students in middle and high school were the participants of the event. I volunteered to help take measurements during one of the challenges, which was used in determining the scores for said activity. The event was sponsored by TOPS, Cape Henry, and Busch Gardens.</p>
+						<ul>
+						</ul>
+						<h3>Code for Hampton Roads<span class="date pull-right">2015 - Present</span></h3>
+						<strong>Web Developer</strong>
+						<div class="website pull-right">
+							<a target="_blank" href="http:&#x2F;&#x2F;code4hr.org">http:&#x2F;&#x2F;code4hr.org</a>
+						</div>
+						<p>Local branch of Code for America.</p>
+						<ul>
+						</ul>
+						<h3>Old Dominion University<span class="date pull-right">2016 - 2016</span></h3>
+						<strong>Volunteer, Club Representative</strong>
+						<div class="website pull-right">
+							<a target="_blank" href="https:&#x2F;&#x2F;www.odu.edu&#x2F;ugadm&#x2F;calendar&#x2F;2016&#x2F;4&#x2F;admitted_students_da">https:&#x2F;&#x2F;www.odu.edu&#x2F;ugadm&#x2F;calendar&#x2F;2016&#x2F;4&#x2F;admitted_students_da</a>
+						</div>
+						<p>I represented the Old Dominion University (ODU) Association for Computing Machinery (ACM) by manning a table with information about the benefits of joining, and handing out free stuff. I spoke with many parents and upcoming freshmen about the program to help figure out if computer science was the right path. During the CS department presentation for the parents and students, I gave a short presentation on joining the club and participating in ODU&#39;s CS dept. The children were ages 7-10 and inspiring. Their comfort with the technology and ability to pick up basic programming concepts(Loops were hard but they figured it out) gets me excited for what the future holds.</p>
+						<ul>
+						</ul>
+						<h3>Code.org<span class="date pull-right">2015 - Present</span></h3>
+						<strong>Volunteer</strong>
+						<div class="website pull-right">
+							<a target="_blank" href="https:&#x2F;&#x2F;code.org&#x2F;learn">https:&#x2F;&#x2F;code.org&#x2F;learn</a>
+						</div>
+						<p>The Hour of Code is a one-hour introduction to computer science, designed to demystify code and show that anybody can learn the basics. I was asked by many teachers to come volunteer with their class. That alone is fantastic, that so many teachers were interested in having computer science basics introduced to their students. Unfortunately, this lovely time of year lined up perfectly with finals so I didn&#39;t have the time to volunteer for all of them.</p>
+						<ul>
+							<li>Volunteered at 2 visits to John B. Dey Elementary.</li>
+							<li>Tallwood Elementary (Where, as a kid, I went from K-2!)</li>
+						</ul>
+					</div>
+				</div>
 				</section>
+				<hr />
+				<footer></footer>
+			</div>
 			</main>
 		</div>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
 	</body>
 </html>

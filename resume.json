@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Joshua Harris",
-    "label": "Student Software Engineer and Graphic Designer; Addicted to coffee..shops",
-    "picture": "http://joshuajharris.com/img/portrait.png",
+    "name": "Joshua J. Harris",
+    "label": "Developer // Designer",
+    "picture": "https://en.gravatar.com/userimage/97301501/5e676065657cb75778eb9afc934f8397.png?size=256",
     "email": "joshua.jharris13@gmail.com",
     "phone": "",
-    "website": "http://joshuajharris.com",
-    "summary": "I am obsessed with building great apps and products. In fact, I'm so obsessed that I love to dip my hands into every aspect of the process.\n\n⁍ Research & Planning\n⁍ UI/UX Design\n⁍ Development (Frontend/Backend)\n⁍ Product management\n\nHeck, put me on the sales team. I'll be the Dwight Schrute to your Michael Scott.\n\nI am incredibly driven because my passion is to create the apps of the future. Crafting great user experiences everyone can carry with them at any time. There is something incredibly magical about that.\n\nSpecialties:\nAbility to thrive in a team; Self Motivation; Planning & Organizing; Effective time management; Leadership; Creativity; Effective communication; Web Technologies; Full Stack Development; Graphic Design; UI Design; UX Design",
+    "website": "https://joshuajharris.com",
+    "summary": "",
     "location": {
       "address": "",
       "postalCode": "",
       "city": "Virginia Beach",
       "countryCode": "US",
-      "region": "Virginia"
+      "region": "VA"
     },
     "profiles": [
       {
@@ -51,47 +51,67 @@
     {
       "company": "Dominion Enterprises",
       "position": "Software Engineer Intern @ ForRent.com",
-      "website": "http://www.dominionenterprises.com",
+      "website": "http://www.forrent.com",
       "startDate": "2016-05-01",
       "endDate": "2016-08-01",
       "summary": "",
       "highlights": [
-        "Tested, updated, and implemented a process for migrating property listings from Microsoft SQL database to Elasticsearch in order to return aggregations faster, score search results easier, and make great use of the built in query operations on GeoJSON data.",
-        "Created Elasticsearch query builder library and utility functions.",
-        "Implemented desired search query logic in v3 api routes so that front-end clients can maintain same functionality as v2 api, but with upgraded performance and simpler query structure.",
-        "Designed and built a endpoint query visualization tool in order to give front-end developers an immediate way into figuring out how to structure the queries they build."
+        "Migrated all property listings from a Microsoft SQL database to ElasticSearch.",
+        "Implemented new search query logic in the v3 api so that front-end clients can maintain same functionality as v2 api, but with upgraded performance and simpler query structure.",
+        "Designed and built an endpoint query visualization tool in order to give front-end developers an immediate way into figuring out how to structure the queries they build."
       ]
     },
     {
       "company": "Dominion Enterprises",
       "position": "Software Engineer Intern @ ForRent.com",
-      "website": "http://www.dominionenterprises.com",
+      "website": "http://www.forrent.com",
       "startDate": "2015-10-01",
       "endDate": "2016-02-01",
       "summary": "",
       "highlights": [
-        "Implemented a resque-like system in NodeJS to ensure reliability of ForRent.com’s guest card delivery system as well as distributing workload over several worker processes to maximize how quickly requests are completed.",
-        "After completing the work required of me for a sprint, I created a web tool to help developers and product managers debug incorrect guest cards found during testing, making bugs easier to find and quicker to solve. # Implemented logic on the backend for sending leads with enhanced insight data to third party vendors using their services.",
-        "Refactored 10+ year old code on the backend so that developers could focus most of their efforts on adding new features instead of deciphering the codebase.",
-        "Migrated admin console pages from an unsupported legacy mvc framework to zend to allow for better stability, performance, and ability to upgrade."
+        "Implemented a resque-like system in NodeJS to ensure the speed and reliability of the guest card delivery system.",
+        "I created a web tool to help developers and product managers debug incorrect guest cards, making bugs easier to find and quicker to solve.",
+        "Implemented logic on the backend for sending leads with enhanced insight data to third party vendors",
+        "Migrated admin console routes from an unsupported legacy mvc framework to zend to allow for better stability, performance, and ability to upgrade."
       ]
     },
     {
       "company": "Stinger Ghaffarian Technologies (SGT)",
       "position": "NASA LITES Contract Intern",
-      "website": "",
+      "website": "http://www.sgt-inc.com/",
       "startDate": "2015-05-01",
       "endDate": "2015-08-01",
       "summary": "",
       "highlights": [
-        "Wrote Application Portfolio application for local contractor staff to manage application portfolio data",
-        "Created Docker Container for the Application Portfolio app and deployed into Amazon Web Services (AWS) Elastic Beanstalk",
-        "Presented container technologies to contractor staff in brown bag training session",
-        "Conducted market analysis on virtual reality technologies and made procurement recommendations to NASA Langley CTO"
+        "Wrote Application Portfolio application for local contractor staff to manage application portfolio data.",
+        "Created Docker Container for the Application Portfolio app and deployed into Amazon Web Services (AWS) Elastic Beanstalk.",
+        "Presented container technologies to contractor staff in brown bag training session.",
+        "Conducted market analysis on virtual reality technologies and made procurement recommendations to NASA Langley CTO."
       ]
     }
   ],
   "volunteer": [
+    {
+      "organization": "WHRO Public Media",
+      "position": "GCC Volunteer (Monitor)",
+      "website": "http://education.whro.org/regional-services/for-schools/great-computer-challenge",
+      "startDate": "2017-04-01",
+      "summary": "I volunteered to help during the 32nd annual Great Computer Challenge, organized by WHRO and held at Old Dominion University. I competed in this event twice during high school and felt compelled to make it as fun and special as others did for me. I monitored several teams of high school students competing in tech related challenges.",
+      "highlights": [
+        "Kept time during the event",
+        "relayed questions from the students to judges",
+        "Made sure teams were following the rules of the competition",
+        "helped with registration at the start of the event"
+      ]
+    },
+    {
+      "organization": "Tidewater Teachers of Physics Society (TOPS)",
+      "position": "Physics Volunteer",
+      "website": "",
+      "startDate": "2017-03-25",
+      "summary": "The Physics Olympics is a series of six activities, each of 20 minutes duration, and is designed to be fun, active, include some knowledge of science, and require group participation. Students in middle and high school were the participants of the event. I volunteered to help take measurements during one of the challenges, which was used in determining the scores for said activity. The event was sponsored by TOPS, Cape Henry, and Busch Gardens.",
+      "highlights": []
+    },
     {
       "organization": "Code for Hampton Roads",
       "position": "Web Developer",
@@ -185,34 +205,40 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "Frontend",
       "level": "",
       "keywords": [
         "HTML5",
         "CSS3",
         "Javascript",
-        "NodeJS",
         "React",
-        "Angular",
-        "Java",
-        "Spring",
-        "PHP",
-        "Python",
-        "APIs",
-        "Fullstack"
+        "Redux"
       ]
     },
     {
-      "name": "Database/Services",
+      "name": "Backend",
       "level": "",
       "keywords": [
-        "MySQL",
-        "Oracle SQL",
-        "Sqlite",
-        "MongoDB",
-        "Redis",
+        "NodeJs",
+        "php",
+        "Python",
+        "Java",
+        "Cloud Services",
         "Firebase",
-        "Amazon Web Services",
+        "Heroku",
+        "Amazon Web Services"
+      ]
+    },
+    {
+      "name": "Database",
+      "level": "",
+      "keywords": [
+        "SQL",
+        "MySQL",
+        "PostGres",
+        "NoSQL",
+        "Redis",
+        "Mongo",
         "ElasticSearch"
       ]
     },
@@ -220,12 +246,10 @@
       "name": "Design",
       "level": "",
       "keywords": [
-        "Graphic Arts",
-        "User Interfaces",
-        "User Experience",
-        "Web",
+        "Adobe Photoshop",
         "Sketch App",
-        "Adobe Photoshop"
+        "Graphic Design",
+        "UI / UX"
       ]
     }
   ],
