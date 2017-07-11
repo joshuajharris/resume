@@ -56,9 +56,9 @@
       "endDate": "2016-08-01",
       "summary": "",
       "highlights": [
-        "Migrated all property listings from a Microsoft SQL database to ElasticSearch.",
-        "Implemented new search query logic in the v3 api so that front-end clients can maintain same functionality as v2 api, but with upgraded performance and simpler query structure.",
-        "Designed and built an endpoint query visualization tool in order to give front-end developers an immediate way into figuring out how to structure the queries they build."
+        "Implemented migration from Microsoft SQL to Elastic Search using Kafka, Logstash.",
+        "Search API design & development using Java Spring, ELK stack.",
+        "Built in-house query visualization tool using Angular."
       ]
     },
     {
@@ -69,10 +69,10 @@
       "endDate": "2016-02-01",
       "summary": "",
       "highlights": [
-        "Implemented a resque-like system in NodeJS to ensure the speed and reliability of the guest card delivery system.",
-        "I created a web tool to help developers and product managers debug incorrect guest cards, making bugs easier to find and quicker to solve.",
-        "Implemented logic on the backend for sending leads with enhanced insight data to third party vendors",
-        "Migrated admin console routes from an unsupported legacy mvc framework to zend to allow for better stability, performance, and ability to upgrade."
+        "Email API development using NodeJS, Sendgrid, Redis.",
+        "Built in-house tool to debug email API using Angular.",
+        "Migrated legacy admin pages to Zend php, javascript, css3.",
+        "Connected new product API to client vendor services using php."
       ]
     },
     {
