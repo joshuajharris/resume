@@ -1,3 +1,7 @@
 #!/bin/sh
 
+# nominaltech
+# fizz
+# srt
+
 resume export index.html --theme nominaltech
