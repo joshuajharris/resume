@@ -10,7 +10,7 @@
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Virginia Beach",
+      "city": "Richmond",
       "countryCode": "US",
       "region": "VA"
     },
@@ -48,6 +48,18 @@
     ]
   },
   "work": [
+    {
+      "company": "SingleComm",
+      "position": "Junior Software Engineer",
+      "website": "https://www.singlecomm.com",
+      "startDate": "2017-10-02",
+      "summary": "Feature Enhancement and Development Team - SingleComm is a platform for true multi-channel customer service and sales across the channels your customers want, while empowering agents with all the data they need.",
+      "highlights": [
+        "Introduced internal reusable component library and sdks for easier development across multiple apps",
+        "Implemented initiative in client facing scripting engine for the building of reports without the need of a database admin",
+        "Built and wired up serverless microservices to legacy system to migrate new features away from monolithic app"
+      ]
+    },
     {
       "company": "Dominion Enterprises",
       "position": "Software Engineer Intern @ ForRent.com",
